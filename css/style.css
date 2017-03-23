@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade|Lobster');
+body{
+	padding-top: 20px;
+}
+#bgcolor{
+	padding: 8px 10px;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    background: #eee;
+    border: 1px solid #ddd;
+    color: #343333;
+    border-radius: 5px;
+}
+.heading{
+	margin-bottom: 30px;
+	font-family: 'Lobster', cursive;
+}
+.heading h1{
+	font-size: 60px;
+}
+.color-text{}
+.color-text li{
+	padding: 10px 5px;
+	color: #fff;
+	margin: 0 0 5px 0;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.4s ease !important;
+	-webkit-transition: all 0.4s ease !important;
+	-moz-transition: all 0.4s ease !important;
+}
+.color-text li:hover{
+	background: #eee;
+	color: #333;
+}
+
+
+.even{
+	background: seagreen;
+}
+.odd{
+	background: gray;
+}.first{
+	background: green;
+}.last{
+	background: red;
+}
+.txt-area{
+	padding-top: 30px;
+}
+.txt-area h4{
+	text-transform: capitalize;
+}
+#character_remaining{
+	margin-top: 9px;
+	margin-left: 5px;
+}
+#sign-form{}
+#sign-form h2{
+	font-size: 12px;
+
+}
+.red, .orange, .green{
+	border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    color: #fff;
+    font-size: 12px;
+}
+.red{
+    background: red;
+    border: 1px solid red;
+    
+}
+.orange{
+    background: orange;
+    border: 1px solid orange;
+}
+.green{
+    background: seagreen;
+    border: 1px solid green;
+}
+#sign-form{
+}
+
+.form{
+	
+}
+.form form{}
+.form form input{
+	width: 100%;
+	padding: 10px;
+	border: 1px solid #999;
+	border-radius: 5px;
+}
+.ml{
+	width: 100% !important;
+	font-size: 14px;
+    font-weight: 600;
+    color: green;
+    margin-top: 5px !important;
+}
+#Result{
+    font-size: 14px;
+    font-weight: 600;
+    color: red;
+    margin-top: 5px !important;
+}
+.form span{
+	display: block;
+	width: 10%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.form h4{
+    font-weight: 600;
+    font-style: italic;
+    color: #244c80;
+}
+.fade-content{
+	text-align: center;
+	margin: auto 0 !important;
+}
+#t-hide, #t-show{
+	text-transform: capitalize;
+}
+#portfolio{
+	padding-top: 10px;
+}
+.portfolio-content{
+
+}
+.portfolio-content ul li{
+	text-transform: uppercase;
+	padding: 10px 30px !important;
+	border: 1px solid #eee !important;
+	background-color: #222 !important;
+	border-radius: 5px;
+	color: #fff;
+}

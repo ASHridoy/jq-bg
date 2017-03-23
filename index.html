@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BG Color</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="shortcut icon" href="images/logo2.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto+Slab" rel="stylesheet">
+  </head>
+  <body>
+<section id="bgclr">
+  <div class="container">
+    <div class="row">
+    <div class="heading text-center">
+      <h1>Sign Up Now!</h1>
+      <p>Proin iaculis purus consequat sem cure</p>
+    </div> 
+     <div class="col-sm-6">
+        <div class="bg-clr">
+          <select name="background_color" id="bgcolor">
+            <option>Choose Background Color</option>
+            <option value="white">White</option>
+            <option value="black">Black</option>
+            <option value="orange">Orange</option>
+            <option value="darkgreen">Green</option>
+            <option value="seagreen">Seagreen</option>
+            <option value="red">Red</option>
+            <option value="gray">Gray</option>
+            <option value="maroon">Maroon</option>
+          </select>
+        </div>
+        <div class="txt-area">
+        <h4>Write about your bio:</h4>
+          <textarea placeholder="Type your message" rows="8" name="message" maxlength="100" class="form-control"></textarea>
+<p id="character_remaining"></p>
+
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <ul class="list-unstyled color-text">
+          <li>1. Stop wasting your time &amp; Sign-up now!!</li>
+          <li>2. Stop wasting your time &amp; Sign-up now!!</li>
+          <li>3. Stop wasting your time &amp; Sign-up now!!</li>
+          <li>4. Stop wasting your time &amp; Sign-up now!!</li>
+          <li>5. Stop wasting your time &amp; Sign-up now!!</li>
+          <li>6. Stop wasting your time &amp; Sign-up now!!</li>
+          <li>7. Stop wasting your time &amp; Sign-up now!!</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="sign-form">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="form text-center">
+          <h4>Sign Up Now!!</h4>
+          <form class="sign" name="signupform">
+            <div class="form-group">
+              <input type="text" name="fname" placeholder="Full Name">
+            </div>
+            <div class="form-group">
+              <input type="text" name="phone" placeholder="Phone number">
+            </div>
+            <div class="form-group" >
+              <input type="email" name="email" class="mail" placeholder="E-mail address">
+              <span class="ml"></span>
+            </div>
+            <div class="form-group" >       
+              <input type="password" id="password" placeholder=" Enter your password">
+              <span class="pass_strength"></span>
+            </div>
+            <div class="form-group">
+              <input type="password" name="rpassword" placeholder="Re-type Password">
+            </div>
+            <button type="button" class="btn btn-danger" onclick="SignUp()">Sign Up Now</button>
+
+            <h2 id="Result"></h2>
+          </form>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="fade-content">
+          <div class="fadeout-test">
+            <button type="button" id="t-hide" class="btn btn-danger">Click here to show or hide content   </button>
+            <p id="hide">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+          </div>
+          <div class="fadein-test">
+            <button type="button" id="t-show" class="btn btn-danger">Click here to show or hide content   </button>
+            <p id="show" style="display: none;">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio">
+  <div class="container">
+    <div class="row">
+    <div class="heading text-center">
+      <h1>Our portfolio</h1>
+      <p>Proin iaculis purus consequat sem cure</p>
+    </div>
+    <div class="portfolio-content text-center">
+      <div class="col-sm-12">
+        <ul class="list-inline">
+          <li class="btn btn-danger all">All</li>
+          <li class="btn btn-danger htmlcss">html css</li>
+          <li class="btn btn-danger psd">psd to html</li>
+          <li class="btn btn-danger wp">wordpress</li>
+        </ul>
+      </div>
+    </div>
+    <div class="portfolio-img">
+      <div class="col-sm-3 htmlcss">
+        <img src="images/blur.jpg" class="img-responsive thumbnail">
+      </div>
+      <div class="col-sm-3 psd">
+        <img src="images/codding.jpg" class="img-responsive thumbnail">
+      </div>
+      <div class="col-sm-3 wp">
+        <img src="images/busy.jpg" class="img-responsive thumbnail">
+      </div>
+      <div class="col-sm-3 htmlcss">
+        <img src="images/home.jpg" class="img-responsive thumbnail">
+      </div>
+      <div class="col-sm-3 psd">
+        <img src="images/busy.jpg" class="img-responsive thumbnail">
+      </div>
+      <div class="col-sm-3 wp">
+        <img src="images/home.jpg" class="img-responsive thumbnail">
+      </div>
+      <div class="col-sm-3 htmlcss">
+        <img src="images/blur.jpg" class="img-responsive thumbnail">
+      </div>
+      <div class="col-sm-3 psd">
+        <img src="images/codding.jpg" class="img-responsive thumbnail">
+      </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $("ul li:first-child").addClass("first");
+        $("ul li:last-child").addClass("last");
+        $("ul li:even").addClass("even");
+        $("ul li:odd").addClass("odd");
+      })
+    </script>
+<script>
+  $(document).ready(function(){
+    var color=$("#bgcolor").val();
+    $("body").css("background",color);
+    
+    $("#bgcolor").change(function(){
+    color=$("#bgcolor").val();
+    $("body").css("background",color);
+    });
+});
+
+</script>
+<script>
+  $(document).ready(function(){
+    var max_text=40;
+    $("#character_remaining").html("<b>"+max_text+" characters remaining.</b>");
+    $("textarea").keyup(function(){
+        var text_length=$("textarea").val().length;
+        var total_character_remaining=max_text - text_length;
+      $("#character_remaining").html("<b>"+total_character_remaining+" characters remaining.</b>");
+    });
+});
+
+</script>
+<script>
+  $(document).ready(function(){
+    $("#password").keyup(function(){
+        var count=$(this).val().length;
+        // $(".pass_strength").text(count);
+        if(count<1){
+            $(".pass_strength").text("");
+              $(".pass_strength").removeClass("red");         $(".pass_strength").removeClass("orange");            $(".pass_strength").removeClass("green");
+        }
+        else if(count<6){
+              $(".pass_strength").text("Weak");
+              $(".pass_strength").addClass("red");
+              $(".pass_strength").removeClass("orange");            $(".pass_strength").removeClass("green");
+        }
+        else if(count<=10){
+              $(".pass_strength").text("Good");
+              $(".pass_strength").addClass("orange");
+            $(".pass_strength").removeClass("red");           $(".pass_strength").removeClass("green");
+        }
+        else{
+              $(".pass_strength").text("Strong");
+              $(".pass_strength").addClass("green");
+            $(".pass_strength").removeClass("red");                                             $(".pass_strength").removeClass("orange");
+        }
+    });
+});
+
+</script>
+<script>
+      function SignUp(){
+        var fn=document.signupform.fname.value;
+        var ph=document.signupform.phone.value;
+        var ml=document.signupform.email.value;
+        var password=document.signupform.password.value;
+        var rpassword=document.signupform.rpassword.value;
+
+        var result=document.getElementById("Result");
+        if (fn == "" || ph == "" || ml == "" || password == ""){
+          result.innerHTML="**Please enter required information**"
+        }
+        else if (ph.length < 11) {
+          result.innerHTML="**Please enter valid phone number**"
+        } 
+        else if(password.length < 4){
+          result.innerHTML="**Please enter a minimum of 4 digit password**";
+        }
+        else if(password != rpassword){
+          result.innerHTML="**Password does not match**";
+        }
+        else{
+          result.innerHTML="The data is submitted!";
+        }
+      }
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("input.mail").keyup(function(){
+          var email_regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/i;
+          var ml=$("input.mail").val();
+
+          if(email_regex.test(ml)){
+            $("span.ml").text("**Valid Email address**");
+          }
+        })
+      })
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("#t-hide").click(function(){
+          $("#hide").fadeToggle(2000);
+        })
+      })
+      $(document).ready(function(){
+        $("#t-show").click(function(){
+          $("#show").toggle(2000);
+        })
+      })
+    </script>
+    <script>
+      $(document).ready(function(){
+        $("ul li.all").click(function(){
+          $(".htmlcss").fadeIn(1000);
+          $(".psd").fadeIn(1000);
+          $(".wp").fadeIn(1000);
+        });
+        $("ul li.htmlcss").click(function(){
+          $(".htmlcss").fadeIn(1000);
+          $(".psd").fadeOut(1000);
+          $(".wp").fadeOut(1000);
+
+        });
+        $("ul li.psd").click(function(){
+          $(".htmlcss").fadeOut(1000);
+          $(".psd").fadeIn(1000);
+          $(".wp").fadeOut(1000);
+
+        });
+        $("ul li.wp").click(function(){
+          $(".htmlcss").fadeOut(1000);
+          $(".psd").fadeOut(1000);
+          $(".wp").fadeIn(1000);
+
+        });
+
+      })
+    </script>
+  </body>
+</html>
