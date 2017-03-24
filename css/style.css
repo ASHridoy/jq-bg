@@ -58,7 +58,7 @@ body{
 #sign-form{}
 #sign-form h2{
 	font-size: 12px;
-
+    padding-top: 10px;
 }
 .red, .orange, .green{
 	border-radius: 5px;
